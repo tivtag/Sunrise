@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{0b85cda1-6f7d-4438-95b2-55b0cc66e6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shell">
+      <UniqueIdentifier>{ec1422a2-cf0a-40a6-ba6e-8d156ef23bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shell\Windows">
+      <UniqueIdentifier>{87c26ed6-a3d4-489a-a747-c51e755a61ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{ddae7d45-2d9e-4883-9518-857fa5f6a896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{32863e83-8bdc-43fd-9a46-ca83af526b8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shell\PVRShell.cpp">
+      <Filter>Graphics\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell\OS\Windows\PVRShellOS.cpp">
+      <Filter>Graphics\Shell\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell\PVRShellAPI.cpp">
+      <Filter>Graphics\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shell\PVRTgles2Ext.cpp">
+      <Filter>Graphics\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="World\GroundInfo.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Graphics\TextureManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="GravityResourceFile.cpp" />
+    <ClCompile Include="DES.cpp" />
+    <ClCompile Include="World\Ground.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TexturedTriangleBuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World\GroundShader.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Image.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World\WorldInfo.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityFile.cpp" />
+    <ClCompile Include="Graphics\ModelInfo.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ModelManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Model.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ModelNode.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ModelInstance.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shell\PVRShell.h">
+      <Filter>Graphics\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\PVRShellImpl.h">
+      <Filter>Graphics\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\OS\Windows\PVRShellOS.h">
+      <Filter>Graphics\Shell\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\PVRShellAPI.h">
+      <Filter>Graphics\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\PVRTgles2Ext.h">
+      <Filter>Graphics\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\PVRTContext.h">
+      <Filter>Graphics\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="World\GroundInfo.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp" />
+    <ClInclude Include="Graphics\TextureManager.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.hpp" />
+    <ClInclude Include="Math.hpp" />
+    <ClInclude Include="FileSystem.hpp" />
+    <ClInclude Include="Resource.hpp" />
+    <ClInclude Include="Graphics\Texture.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityResourceFile.hpp" />
+    <ClInclude Include="DES.hpp" />
+    <ClInclude Include="World\Ground.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Vertex.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TexturedTriangleBuffer.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Shader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="World\GroundShader.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Image.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp" />
+    <ClInclude Include="GravityFile.hpp" />
+    <ClInclude Include="World\WorldInfo.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ModelInfo.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ModelManager.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Model.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ModelNode.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextureShader.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ModelInstance.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.hpp" />
+    <ClInclude Include="Graphics\API.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PVRShellChanges.txt" />
+    <None Include="old_code.txt" />
+    <None Include="Graphics\Shaders\Textured.vsh">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\Textured.fsh">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\PointLight.fsh">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+    <None Include="Graphics\Shaders\PointLight.vsh">
+      <Filter>Graphics\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
