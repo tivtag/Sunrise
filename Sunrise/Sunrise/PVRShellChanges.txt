@@ -1,0 +1,5 @@
+
+
+Added the following LoC to the end of "OsDoInitAPI":
+
+	SetCursor(LoadCursor(NULL, IDC_ARROW));
