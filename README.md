@@ -6,4 +6,10 @@ Language: C++
 
 Script Code: IronRuby
 
-Graphics: OpenGL
+Graphics: OpenGL ES 2.0, FreeImage, EGL
+
+Math: OpenGL Mathematics
+
+Input: Open Input System
+
+Misc: zlib Compression Library
