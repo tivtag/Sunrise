@@ -13,9 +13,6 @@
     <Filter Include="World">
       <UniqueIdentifier>{ddae7d45-2d9e-4883-9518-857fa5f6a896}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Graphics\Shaders">
-      <UniqueIdentifier>{32863e83-8bdc-43fd-9a46-ca83af526b8c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Shell\PVRShell.cpp">
@@ -49,40 +46,6 @@
     <ClCompile Include="Resource.cpp" />
     <ClCompile Include="GravityResourceFile.cpp" />
     <ClCompile Include="DES.cpp" />
-    <ClCompile Include="World\Ground.cpp">
-      <Filter>World</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\TexturedTriangleBuffer.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Shader.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="World\GroundShader.cpp">
-      <Filter>World</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Image.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="World\WorldInfo.cpp">
-      <Filter>World</Filter>
-    </ClCompile>
-    <ClCompile Include="GravityFile.cpp" />
-    <ClCompile Include="Graphics\ModelInfo.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\ModelManager.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\Model.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphics\ModelNode.cpp">
-      <Filter>Graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="World\ModelInstance.cpp">
-      <Filter>World</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shell\PVRShell.h">
@@ -122,66 +85,9 @@
     </ClInclude>
     <ClInclude Include="GravityResourceFile.hpp" />
     <ClInclude Include="DES.hpp" />
-    <ClInclude Include="World\Ground.hpp">
-      <Filter>World</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Vertex.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\TexturedTriangleBuffer.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Shader.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="World\GroundShader.hpp">
-      <Filter>World</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Image.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Log.hpp" />
-    <ClInclude Include="GravityFile.hpp" />
-    <ClInclude Include="World\WorldInfo.hpp">
-      <Filter>World</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\ModelInfo.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\ModelManager.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\Model.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\ModelNode.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\TextureShader.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
-    <ClInclude Include="World\ModelInstance.hpp">
-      <Filter>World</Filter>
-    </ClInclude>
-    <ClInclude Include="Platform.hpp" />
-    <ClInclude Include="Graphics\API.hpp">
-      <Filter>Graphics</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="PVRShellChanges.txt" />
     <None Include="old_code.txt" />
-    <None Include="Graphics\Shaders\Textured.vsh">
-      <Filter>Graphics\Shaders</Filter>
-    </None>
-    <None Include="Graphics\Shaders\Textured.fsh">
-      <Filter>Graphics\Shaders</Filter>
-    </None>
-    <None Include="Graphics\Shaders\PointLight.fsh">
-      <Filter>Graphics\Shaders</Filter>
-    </None>
-    <None Include="Graphics\Shaders\PointLight.vsh">
-      <Filter>Graphics\Shaders</Filter>
-    </None>
   </ItemGroup>
 </Project>
